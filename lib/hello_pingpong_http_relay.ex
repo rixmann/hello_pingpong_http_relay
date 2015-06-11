@@ -15,6 +15,6 @@ defmodule HelloPingpongHttpRelay do
   end
 
   def ping() do
-    :hello_client.call(__MODULE__, {"Server.ping", [], []})
+    :hello_client.call(__MODULE__, {"Server.ping", %{}, []})
   end
 end

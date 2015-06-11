@@ -21,6 +21,7 @@ defmodule HelloPingpongHttpRelay.Mixfile do
     [{:lager, "~> 2.1.1", override: true},
      {:cowboy, "~> 1.0.0", override: true},
      {:plug, "~> 0.12"},
-     {:hello, github: "travelping/hello", branch: "hello_v3"}]
+     {:hello, github: "travelping/hello", branch: "hello_v3"},
+     {:jsx, github: "talentdeficit/jsx", branch: "develop", override: true}]
   end
 end

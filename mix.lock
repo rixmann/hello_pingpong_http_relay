@@ -8,7 +8,7 @@
   "goldrush": {:hex, :goldrush, "0.1.6"},
   "hello": {:git, "git://github.com/travelping/hello.git", "0ac4dde05c1848bf3d1b3feec6dc1475752c3a47", [branch: "hello_v3"]},
   "ibrowse": {:git, "git://github.com/cmullaparthi/ibrowse.git", "04566c70016f5a2a9a8b8ba6e6adf429e399c260", [branch: "master"]},
-  "jsx": {:git, "git@github.com:talentdeficit/jsx.git", "56880ce51976693b82c6f56bb877d166d9403d31", [branch: "master"]},
+  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "e7696cc647ec0f6fa314515ee7ce5e0f3a433a46", [branch: "develop"]},
   "lager": {:hex, :lager, "2.1.1"},
   "msgpack": {:git, "git://github.com/msgpack/msgpack-erlang.git", "c666a5f6568ac2e15687bb155442025dbb8b74ff", [branch: "master"]},
   "plug": {:hex, :plug, "0.13.0"},
