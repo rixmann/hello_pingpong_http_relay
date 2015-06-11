@@ -1,4 +1,14 @@
 HelloPingpongHttpRelay
 ======================
 
-**TODO: Add description**
+HTTP server.
+Sends ping requests to HelloPingpong for testing round trip time.
+
+usage example:
+--------------
+
+starting:
+  iex -S mix
+
+issueing a http request to the relay:
+  curl -X GET http://127.0.0.1:8080/ping
