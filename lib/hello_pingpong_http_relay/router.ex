@@ -5,7 +5,7 @@ defmodule HelloPingpongHttpRelay.Router do
   plug :dispatch
 
   get "/ping" do
-    HelloPingpongHttpRelay.client
+    HelloPingpongHttpRelay.ping
     send_resp(conn, 200, "pong")
   end
 
